@@ -1,11 +1,25 @@
-import Container from 'react-bootstrap/Container';
-import NoticeWIP from './layout/NoticeWIP';
+import Jumbotron from 'react-bootstrap/Jumbotron';
+import Button from 'react-bootstrap/Button';
+
+import Layout from '../components/Layout';
 
 export default function IndexPage() {
     return (
-        <Container className='pt-3'>
-            <NoticeWIP />
-            <h1>Index</h1>
-        </Container>
+        <Layout>
+            <Jumbotron>
+                <h1>The entire event at your fingertips.</h1>
+                <p>
+                    View match scores, team stats, alliances, and
+                    livestreams-- either at home or at the competition-- on all your devices.
+                    <br/>
+                    It's the perfect platform for quick and easy scouting.
+                </p>
+                <p>
+                    <Button>
+                        Find your tournament
+                    </Button>
+                </p>
+            </Jumbotron>
+        </Layout>
     );
 }
