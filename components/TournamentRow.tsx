@@ -8,11 +8,9 @@ export default function TournamentRow({ idn, name, location }) {
             <td className='align-middle'>{name}</td>
             <td className='align-middle'>{location}</td>
             <td className='align-middle'>
-                <ButtonGroup aria-label='Operations'>
-                    <Button variant='secondary'>View</Button>
-                    <Button>Manage</Button>
-                    <Button variant='danger'>Remove</Button>
-                </ButtonGroup>
+                <Button className='m-1' variant='secondary'>View</Button>
+                <Button className='m-1'>Manage</Button>
+                <Button className='m-1' variant='danger'>Remove</Button>
             </td>
         </tr>
     );

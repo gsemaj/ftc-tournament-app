@@ -7,13 +7,13 @@ export default function Layout(props) {
     return (
         <>
             <Navbar bg="dark" variant="dark">
-                <Navbar.Brand href="/">FTC Tournament App</Navbar.Brand>
+                <Navbar.Brand href="/"><img src="/shapes.png" alt="FIRST Web App" /></Navbar.Brand>
                 <Nav className="mr-auto">
                     <Nav.Link href="/">Home</Nav.Link>
                     <Nav.Link href="/dashboard">Dashboard</Nav.Link>
                 </Nav>
             </Navbar>
-            <Container className='pt-3'>
+            <Container className='py-3'>
                 <Alert variant='warning'>
                     Heads up-- this platform is still in development!
                 </Alert>

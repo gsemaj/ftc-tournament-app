@@ -10,7 +10,7 @@ export default function IndexPage() {
         <Layout>
             <h1>{name}'s Dashboard</h1>
             <br/>
-            <h3>Your Tournaments</h3>
+            <h3>Your Events</h3>
             <Table bordered hover size='sm'>
                 <thead>
                     <tr>
@@ -31,7 +31,7 @@ export default function IndexPage() {
                     <tr>
                         <th>No.</th>
                         <th>Name</th>
-                        <th>School</th>
+                        
                         <th>Location</th>
                         <th>Options</th>
                     </tr>
